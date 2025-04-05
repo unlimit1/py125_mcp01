@@ -1,0 +1,27 @@
+mcp.json
+
+
+{
+    "mcpServers":  {
+                       "server-sequential-thinking":  {
+                                                          "args":  [
+                                                                       "-y",
+                                                                       "@smithery/cli@1.1.50",
+                                                                       "run",
+                                                                       "@smithery-ai/server-sequential-thinking",
+                                                                       "--key",
+                                                                       "1605d279-3f5f-43d6-ae89-58166b5e0408"
+                                                                   ],
+                                                          "command":  "npx"
+                                                      },
+                        "yfinance-mcp-server":  {
+                                                    "command":  "uv",
+                                                    "args":  [
+                                                        "--directory",
+                                                        "C:\\dev\\py125_mcp_yfinance",
+                                                        "run",
+                                                        "server.py"
+                                                    ]
+                                                }
+                   }   
+}

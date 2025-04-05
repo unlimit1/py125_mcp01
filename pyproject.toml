@@ -1,0 +1,11 @@
+[project]
+name = "py125-mcp-yfinance"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "mcp[cli]>=1.6.0",
+    "pytz>=2025.2",
+    "yfinance>=0.2.55",
+]
